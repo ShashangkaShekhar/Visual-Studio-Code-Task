@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.map": {"when": "$(basename).map"},
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/config": true
+     }
+}
